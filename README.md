@@ -14,6 +14,8 @@ yarn add @netsells/vue-range-slider
 ```javascript
 import RangeSlider from '@netsells/vue-range-slider';
 
+import '@netsells/vue-range-slider/dist/index.css'; // Basic CSS for positioning elements
+
 export default {
     components: {
         RangeSlider,
